@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculatorstyle.css">
+</head>
+
+<body>
+    <center>
+        <div class="Calculator">
+            <!-- Added an ID to the input for easy selection in JavaScript -->
+            <input type="text" id="inputBox" placeholder="0" readonly>
+
+            <div class="buttons">
+                <!-- Added a consistent class 'button' to all buttons -->
+                <button class="button operatorbtn">AC</button>
+                <button class="button operatorbtn">DEL</button>
+                <button class="button operatorbtn">%</button>
+                <button class="button operatorbtn">/</button>
+                <br>
+
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button operatorbtn">*</button>
+                <br>
+
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button operatorbtn">-</button>
+                <br>
+
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button operatorbtn">+</button>
+                <br>
+
+                <button class="button">00</button>
+                <button class="button">0</button>
+                <button class="button">.</button>
+                <button class="button eqlbtn">=</button>
+            </div>
+        </div>
+    </center>
+    <script src="Calculator.js"></script>
+</body>
+
+</html>
